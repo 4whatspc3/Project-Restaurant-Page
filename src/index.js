@@ -10,6 +10,8 @@ import contactPage from "./contact-page";
 
 import './style.css';
 
+import './style-content.css';
+
 const component = () => {
     const {title} = titlePage();
     

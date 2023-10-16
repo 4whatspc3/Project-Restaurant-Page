@@ -1,3 +1,5 @@
+import homeImage from './images/waitress.jpg';
+
 const homePage = () => {
     const home = document.createElement('div');
 
@@ -7,11 +9,15 @@ const homePage = () => {
 
     homeContent.textContent = "Best coffee shop ever!";
 
+    const image = document.createElement('img');
+
+    image.setAttribute('src', homeImage);
+
     const restaurantReview = document.createElement('p');
 
     restaurantReview.textContent =  `All Sort of coffee and more! Bring your family, friends and neighbors!`;
 
-    home.append(homeContent, restaurantReview);
+    home.append(homeContent, image, restaurantReview);
 
     return {home};
 }
