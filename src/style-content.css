@@ -43,4 +43,25 @@
     font-size: 18px;
     -webkit-text-stroke: 1px #A9846A;
     color: #ffffff;
- }
+}
+
+.contactContainer {
+    margin-top: 100px;
+    align-self: start;
+    width: 100%;
+    height: auto;
+    background-color: hsla(29, 51%, 10%, 0.5);
+}
+
+.contactContainer p:first-of-type,
+.contactContainer p:nth-of-type(2),
+.contactContainer p:last-of-type {
+   font-size: 20px;
+   -webkit-text-stroke: 1px #A9846A;
+   font-weight: bold;
+   color: #ffffff;
+}
+
+.contactContainer p:first-of-type {
+    font-size: 30px;
+}
