@@ -1,0 +1,22 @@
+{
+  "name": "project-restaurant-page",
+  "version": "1.0.0",
+  "description": "A project to practice the use of some tools like npm and webpack, furthermore to practice DOM manipulation by dynamically rendering a simple restaurant homepage. By the end, we are going to be using JavaScript alone to generate the entire contents of the website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4whatspc3/Project-Restaurant-Page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/4whatspc3/Project-Restaurant-Page/issues"
+  },
+  "homepage": "https://github.com/4whatspc3/Project-Restaurant-Page#readme",
+  "devDependencies": {
+    "webpack-cli": "^5.1.4"
+  }
+}
