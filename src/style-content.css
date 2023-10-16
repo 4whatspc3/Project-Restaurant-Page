@@ -65,3 +65,41 @@
 .contactContainer p:first-of-type {
     font-size: 30px;
 }
+
+#content > .menuContainer {
+    gap: 20px;
+}
+
+.menuContainer {
+    width: 100%;
+    height: auto;
+    background-color: hsla(29, 51%, 10%, 0.5);
+}
+
+.menuContainer > p {
+    font-size: 30px;
+    -webkit-text-stroke: 1px #A9846A;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+ul {
+    width: 100%;
+    height: auto;
+    margin-left: 10px;
+}
+
+li {
+    list-style-type: circle;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    padding-bottom: 10px;
+}
+
+li:first-of-type {
+    -webkit-text-stroke: 1px #A9846A;
+    list-style-type: none;
+    font-size: 25px;
+}
