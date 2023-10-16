@@ -8,6 +8,8 @@ import menuPage from "./menu-page";
 
 import contactPage from "./contact-page";
 
+import './style.css';
+
 const component = () => {
     const {title} = titlePage();
     
